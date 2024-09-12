@@ -166,3 +166,4 @@ cython_debug/
 *.txt
 *.zip
 .DS_Store
+.chroma_cache/

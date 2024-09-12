@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "signate-rag-2024"
+version = "0.1.0"
+description = ""
+authors = ["Daku-on <113434878+Daku-on@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.10"
+langchain = "^0.2.16"
+chromadb = "^0.5.5"
+langchain-community = "^0.2.16"
+langchain-huggingface = "^0.0.3"
+openai = "^1.44.1"
+pandas = "^2.2.2"
+numpy = "1.26.4"
+unstructured = "^0.15.10"
+pylibmagic = "^0.5.0"
+tiktoken = "^0.7.0"
+langchain-openai = "^0.1.23"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
