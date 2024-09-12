@@ -1,0 +1,14 @@
+version: "3"
+services:
+  dev1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag_env
+    ports:
+      - "8080:8080"
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+    tty: true
